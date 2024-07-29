@@ -4,6 +4,11 @@
     padding: 10px;
 }
 
+.nav-link{
+    padding: 0;
+    margin: auto;
+}
+
 .navbar a {
     text-decoration: none;
     color: var(--negro);
@@ -17,16 +22,6 @@
     width: auto;
 }
 
-.cart-widget {
-    display: flex;
-}
-
-.countCart {
-    margin: auto;
-    display: inline;
-    color: #8699A5;
-    font-size: 2em;
-}
 
 .nav-item {
     padding: 10px;
@@ -34,7 +29,8 @@
 
 .navbar {
     justify-content: space-between;
-    background-color: rgb(114, 182, 165);
+    background-color: rgb(129, 192, 194);
+
 }
 
 .navbar-left {
@@ -43,23 +39,27 @@
     gap: 15px;
 }
 
-.navbar .navbar-left a:hover {
+.navbar .navbar-left a:hover, .nav-link:hover{
     color: rgb(255, 255, 255);
     transition: all .3s ease-in-out, color .3s ease-in-out;
 }
 
-.navbar .navbar-left a {
-    text-transform: uppercase;
+.navbar-right button{
     font-weight: 600;
 }
 
+.navbar .navbar-left a {
+    text-transform: uppercase;
+}
+
 .navbar .navbar-right a {
-    padding: 10px;
     border-radius: 28px;
 }
   
 .navbar .navbar-right{
     display: flex;
+    width: 20%;
+    justify-content: space-between;
 }
 .btn-login, .btn-signup{
     border-radius: 10px;
@@ -68,4 +68,5 @@
 .navbar-right button:hover{
     background-color: #171b1d;
     color: whitesmoke;
+    transition: all .3s ease-in-out, color .3s ease-in-out;
 }

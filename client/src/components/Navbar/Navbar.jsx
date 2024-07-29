@@ -15,8 +15,8 @@ export const Navbar = () => {
                     </div>
                     <div className="collapse navbar-collapse" id="options">
                         <ul className="navbar-nav">
-                            <NavLink className="nav-item" to={"/teachers"}>Profesores</NavLink>
-                            <NavLink className="nav-item" to={"/aboutus"}>Nosotros</NavLink>
+                            <NavLink className="nav-link nav-item" to={"/teachers"}>Profesores</NavLink>
+                            <NavLink className="nav-link nav-item" to={"/aboutus"}>Nosotros</NavLink>
                         </ul>
                     </div>
                 </div>
@@ -24,6 +24,7 @@ export const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="navbar-right">
+                    <Link className="nav-link" to={"/"}><span className="aboutus">Nosotros</span></Link>
                     <Link className="nav-link" to={"/"}><button className="btn btn-light btn-login">Entrar</button></Link>
                     <Link className="nav-link" to={"/"}><button className="btn btn-light btn-signup">Registrarse</button></Link>
                 </div>

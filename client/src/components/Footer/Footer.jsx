@@ -56,10 +56,9 @@ export const Footer = () => {
                         <div className="row d-flex justify-content-center">
                             <div className="col-lg-8">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                                    distinctio earum repellat quaerat voluptatibus placeat nam,
-                                    commodi optio pariatur est quia magnam eum harum corrupti
-                                    dicta, aliquam sequi voluptate quas.
+                                En Clasify, estamos aquí para ayudarte a alcanzar tus metas académicas y personales.
+                                Creemos en tu potencial y estamos comprometidos a ofrecerte el mejor apoyo y orientación
+                                en cada paso del camino.
                                 </p>
                             </div>
                         </div>
@@ -90,10 +89,10 @@ export const Footer = () => {
                 <div
                     className="text-center p-3"
                 >
-                    © 2020 Copyright:
-                    <a className="text-white" href="https://mdbootstrap.com/"
-                    >MDBootstrap.com</a
-                    >
+                    © 2024 Copyright:  
+                    <a className="text-white" href="./"
+                    >Clasify.com
+                    </a>
                 </div>
             </footer>
         </div>

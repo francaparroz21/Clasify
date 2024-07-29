@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Navbar } from './components/Navbar/Navbar';
 import { Routes,Route } from 'react-router-dom';
 import { Footer } from './components/Footer/Footer';
+import { Teachers } from './components/Teachers/Teachers';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />}></Route>
+          <Route path='/teachers' element={<Teachers />}></Route>
         </Routes>
         <Footer/>
     </BrowserRouter>
