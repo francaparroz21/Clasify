@@ -24,9 +24,9 @@ export const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="navbar-right">
-                    <Link className="nav-link" to={"/"}><span className="aboutus">Nosotros</span></Link>
-                    <Link className="nav-link" to={"/"}><button className="btn btn-light btn-login">Entrar</button></Link>
-                    <Link className="nav-link" to={"/"}><button className="btn btn-light btn-signup">Registrarse</button></Link>
+                    <Link className="nav-link" to={"/aboutus"}><span className="aboutus">Nosotros</span></Link>
+                    <Link className="nav-link" to={"/login"}><button className="btn btn-light btn-login">Entrar</button></Link>
+                    <Link className="nav-link" to={"/signup"}><button className="btn btn-light btn-signup">Registrarse</button></Link>
                 </div>
             </nav>
         </header>

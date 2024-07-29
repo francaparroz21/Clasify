@@ -1,0 +1,17 @@
+.container-signup{
+    padding: 10px;
+}
+
+.signup-clasify{
+    width: 70%;
+}
+
+.container-form-img{
+    display: flex;
+    justify-content: center;
+}
+
+.container-signup-img{
+    display: flex;
+    justify-content: center;
+}

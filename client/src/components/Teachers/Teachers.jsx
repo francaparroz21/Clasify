@@ -1,11 +1,11 @@
-import './Teachercs.css'
+import './Teachers.css'
 
 export const Teachers = () => {
 
 
     return (
         <>
-        
+            
         </>
     );
 }
