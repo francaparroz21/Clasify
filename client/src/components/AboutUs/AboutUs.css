@@ -1,0 +1,5 @@
+.container-aboutus-images1, .container-aboutus-images2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

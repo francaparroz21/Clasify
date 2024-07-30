@@ -58,7 +58,7 @@
   
 .navbar .navbar-right{
     display: flex;
-    width: 20%;
+    gap: 5px;
     justify-content: space-between;
 }
 .btn-login, .btn-signup{

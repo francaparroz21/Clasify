@@ -6,6 +6,7 @@ export const Home = () => {
                     <img src={process.env.PUBLIC_URL + "/images/banner1.jpg"} className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">
+                    
                     <img src={process.env.PUBLIC_URL + "/images/banner2.jpg"} className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">

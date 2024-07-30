@@ -10,17 +10,23 @@ export const AboutUs = () => {
                 <section className="py-3 py-md-5">
                     <div className="container">
                         <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
-                            <div className="col-12 col-lg-6 col-xl-5">
+                            <div className="col-12 col-lg-6 col-xl-5 container-aboutus-images1">
                                 <img className="img-fluid rounded" loading="lazy" src={process.env.PUBLIC_URL + "/images/woman-clasify.jpg"} alt="About 1" />
+                                <img className="img-fluid rounded" loading="lazy" src={process.env.PUBLIC_URL + "/images/clasify-model-girl-notebook.jpg"} alt="About 1" />
                             </div>
                             <div className="col-12 col-lg-6 col-xl-7">
                                 <div className="row justify-content-xl-center">
                                     <div className="col-12 col-xl-11">
                                         <h2 className="mb-3">Quienes somos?</h2>
-                                        <p className="lead fs-4 text-secondary mb-3">Somos una marca especializada en tutoría en línea, dedicada a proporcionar apoyo educativo personalizado. Utilizamos tecnología avanzada para ofrecer una experiencia de aprendizaje efectiva y adaptada a tus necesidades.
+                                        <p className="lead fs-4 text-secondary mb-3">
+                                        Somos una comunidad dedicada a ofrecer apoyo educativo personalizado en todos los niveles.
+                                         Utilizamos tecnología avanzada para proporcionar un aprendizaje efectivo y adaptado a tus necesidades individuales.
+                                          Nuestro objetivo es facilitar tu éxito académico mediante un enfoque integral y moderno.
 
                                         </p>
-                                        <p className="mb-5">Ayudamos a las personas a alcanzar sus metas a través de nuestros servicios de tutoría en línea. Nuestra misión es ofrecer apoyo educativo excepcional y personalizado, brindando una experiencia de aprendizaje única y efectiva.</p>
+                                        <p className="mb-5">Ayudamos a las personas a alcanzar sus metas a través de nuestros servicios de tutoría en línea.
+                                             Nuestra misión es ofrecer apoyo educativo excepcional y personalizado, 
+                                             brindando una experiencia de aprendizaje única y efectiva.</p>
                                         <div className="row gy-4 gy-md-0 gx-xxl-5X">
                                             <div className="col-12 col-md-6">
                                                 <div className="d-flex">
@@ -44,7 +50,8 @@ export const AboutUs = () => {
                                                     </div>
                                                     <div>
                                                         <h2 className="h4 mb-3">Objetivos</h2>
-                                                        <p className="text-secondary mb-0">Motívate con nuestro sistema de logros y disfruta de precios únicos y ofertas exclusivas.</p>
+                                                        <p className="text-secondary mb-0">Motívate con nuestro sistema de logros y 
+                                                            disfruta de precios únicos y ofertas exclusivas.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -59,14 +66,20 @@ export const AboutUs = () => {
                 <section className="py-3 py-md-5">
                     <div className="container">
                         <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
-                            <div className="col-12 col-lg-6">
-                                <img className="img-fluid rounded" loading="lazy" src={process.env.PUBLIC_URL + "/images/woman-clasify.jpg"} alt="About 2" />
+                            <div className="col-12 col-lg-6 container-aboutus-images2">
+                                <img className="img-fluid rounded img-aboutus2" loading="lazy" src={process.env.PUBLIC_URL + "/images/clasify-model-smiling.jpg"} alt="About 2" />
+                                <img className="img-fluid rounded img-aboutus2" loading="lazy" src={process.env.PUBLIC_URL + "/images/clasify-model-boy-notebook.jpg"} alt="About 2" />
                             </div>
                             <div className="col-12 col-lg-6">
                                 <div className="row justify-content-xl-center">
                                     <div className="col-12 col-xl-10">
                                         <h2 className="mb-3">Por que elegirnos?</h2>
-                                        <p className="lead fs-4 mb-3 mb-xl-5">With years of experience and deep industry knowledge, we have a proven track record of success and are constantly pushing ourselves to stay ahead of the curve.</p>
+                                        <p className="lead fs-4 mb-3 mb-xl-5">
+                                        Elegirnos significa optar por un apoyo educativo altamente personalizado y adaptado a tus necesidades específicas.
+                                         Ofrecemos tutorías en línea que garantizan una experiencia de aprendizaje efectiva y flexible.
+                                         Nuestro equipo de expertos está dedicado a tu éxito académico,
+                                          brindando un enfoque integral que te ayuda a alcanzar tus metas con el máximo apoyo y profesionalismo.
+                                        </p>
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="me-3 text-primary">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-check-circle-fill" viewBox="0 0 16 16">
@@ -74,7 +87,8 @@ export const AboutUs = () => {
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p className="fs-5 m-0">Our evolution procedure is super intelligent.</p>
+                                                <p className="fs-5 m-0">Beneficios y ofertas exclusivas: Obtén acceso a promociones especiales y 
+                                                    recompensas diseñadas para maximizar tu experiencia educativa.</p>
                                             </div>
                                         </div>
                                         <div className="d-flex align-items-center mb-3">
@@ -84,7 +98,10 @@ export const AboutUs = () => {
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p className="fs-5 m-0">We deliver services beyond expectations.</p>
+                                                <p className="fs-5 m-0">
+                                                Interfaz intuitiva: Disfruta de una plataforma fácil de usar,
+                                                diseñada para ofrecer una experiencia de aprendizaje fluida y sin complicaciones.
+                                                </p>
                                             </div>
                                         </div>
                                         <div className="d-flex align-items-center mb-4 mb-xl-5">
@@ -94,10 +111,12 @@ export const AboutUs = () => {
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p className="fs-5 m-0">Let's hire us to reach your objectives.</p>
+                                                <p className="fs-5 m-0">Resultados excepcionales: Benefíciate de un enfoque educativo que ha demostrado obtener resultados sobresalientes en el rendimiento académico de nuestros estudiantes.
+
+                                                </p>
                                             </div>
                                         </div>
-                                        <button type="button" className="btn bsb-btn-xl btn-outline-primary rounded-pill">Connect Now</button>
+                                        <button type="button" className="btn bsb-btn-xl btn-outline-primary rounded-pill">Conectate ahora</button>
                                     </div>
                                 </div>
                             </div>

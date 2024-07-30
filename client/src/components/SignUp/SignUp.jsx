@@ -6,7 +6,7 @@ export const SignUp = () => {
 
     return (
         <>
-          <section className=" container container-signup" >
+            <section className=" container container-signup" >
                 <div className="container h-100">
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-lg-12 col-xl-11">
@@ -54,12 +54,12 @@ export const SignUp = () => {
                                                 <div className="form-check d-flex justify-content-center mb-5">
                                                     <input className="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
                                                     <label className="form-check-label" for="form2Example3">
-                                                    Acepto todas las declaraciones en <Link to={"/conditions"}>Términos de servicio</Link>
+                                                        Acepto todas las declaraciones en <Link to={"/conditions"}>Términos de servicio</Link>
                                                     </label>
                                                 </div>
 
                                                 <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                                    <button type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-primary btn-lg">Register</button>
+                                                    <button type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-primary btn-lg">Registrar</button>
                                                 </div>
 
                                             </form>
@@ -67,8 +67,9 @@ export const SignUp = () => {
                                         </div>
                                         <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2 container-signup-img">
 
-                                            <img src={process.env.PUBLIC_URL + "/images/signup-clasify.png"}
-                                                className="img-fluid signup-clasify" alt="Sample image"/>
+                                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                                                className="img-fluid" alt="Sample image" />
+
 
                                         </div>
                                     </div>
@@ -77,7 +78,7 @@ export const SignUp = () => {
                         </div>
                     </div>
                 </div>
-            </section>  
+            </section>
         </>
     );
 }
