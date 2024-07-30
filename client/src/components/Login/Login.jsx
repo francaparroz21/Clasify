@@ -15,7 +15,7 @@ export const Login = () => {
                                     <div className="row justify-content-center">
                                         <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
-                                            <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Entrar</p>
+                                            <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Acceder</p>
 
                                             <form className="mx-1 mx-md-4">
 
@@ -34,6 +34,12 @@ export const Login = () => {
                                                         <input type="password" id="form3Example4c" className="form-control" />
                                                         <label className="form-label" for="form3Example4c">Contraseña</label>
                                                     </div>
+                                                </div>
+
+                                                <div className="form-check d-flex justify-content-center mb-5">
+                                                    <label className="form-check-label" for="form2Example3">
+                                                        Aun no tienes cuenta? <Link to={"/signup"}>Registrate aquí.</Link>
+                                                    </label>
                                                 </div>
 
 

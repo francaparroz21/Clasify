@@ -15,7 +15,7 @@ export const SignUp = () => {
                                     <div className="row justify-content-center container-form-img">
                                         <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
-                                            <p className="text-center h1 fw-bold mb-5   ">Registrarse</p>
+                                            <p className="text-center h1 fw-bold mb-5">Registrar cuenta</p>
 
                                             <form className="form-sigunp">
 

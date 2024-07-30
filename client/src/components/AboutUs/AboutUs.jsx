@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './AboutUs.css'
 
 export const AboutUs = () => {
@@ -19,14 +20,14 @@ export const AboutUs = () => {
                                     <div className="col-12 col-xl-11">
                                         <h2 className="mb-3">Quienes somos?</h2>
                                         <p className="lead fs-4 text-secondary mb-3">
-                                        Somos una comunidad dedicada a ofrecer apoyo educativo personalizado en todos los niveles.
-                                         Utilizamos tecnología avanzada para proporcionar un aprendizaje efectivo y adaptado a tus necesidades individuales.
-                                          Nuestro objetivo es facilitar tu éxito académico mediante un enfoque integral y moderno.
+                                            Somos una comunidad dedicada a ofrecer apoyo educativo personalizado en todos los niveles.
+                                            Utilizamos tecnología avanzada para proporcionar un aprendizaje efectivo y adaptado a tus necesidades individuales.
+                                            Nuestro objetivo es facilitar tu éxito académico mediante un enfoque integral y moderno.
 
                                         </p>
                                         <p className="mb-5">Ayudamos a las personas a alcanzar sus metas a través de nuestros servicios de tutoría en línea.
-                                             Nuestra misión es ofrecer apoyo educativo excepcional y personalizado, 
-                                             brindando una experiencia de aprendizaje única y efectiva.</p>
+                                            Nuestra misión es ofrecer apoyo educativo excepcional y personalizado,
+                                            brindando una experiencia de aprendizaje única y efectiva.</p>
                                         <div className="row gy-4 gy-md-0 gx-xxl-5X">
                                             <div className="col-12 col-md-6">
                                                 <div className="d-flex">
@@ -50,7 +51,7 @@ export const AboutUs = () => {
                                                     </div>
                                                     <div>
                                                         <h2 className="h4 mb-3">Objetivos</h2>
-                                                        <p className="text-secondary mb-0">Motívate con nuestro sistema de logros y 
+                                                        <p className="text-secondary mb-0">Motívate con nuestro sistema de logros y
                                                             disfruta de precios únicos y ofertas exclusivas.</p>
                                                     </div>
                                                 </div>
@@ -75,10 +76,10 @@ export const AboutUs = () => {
                                     <div className="col-12 col-xl-10">
                                         <h2 className="mb-3">Por que elegirnos?</h2>
                                         <p className="lead fs-4 mb-3 mb-xl-5">
-                                        Elegirnos significa optar por un apoyo educativo altamente personalizado y adaptado a tus necesidades específicas.
-                                         Ofrecemos tutorías en línea que garantizan una experiencia de aprendizaje efectiva y flexible.
-                                         Nuestro equipo de expertos está dedicado a tu éxito académico,
-                                          brindando un enfoque integral que te ayuda a alcanzar tus metas con el máximo apoyo y profesionalismo.
+                                            Elegirnos significa optar por un apoyo educativo altamente personalizado y adaptado a tus necesidades específicas.
+                                            Ofrecemos tutorías en línea que garantizan una experiencia de aprendizaje efectiva y flexible.
+                                            Nuestro equipo de expertos está dedicado a tu éxito académico,
+                                            brindando un enfoque integral que te ayuda a alcanzar tus metas con el máximo apoyo y profesionalismo.
                                         </p>
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="me-3 text-primary">
@@ -87,7 +88,7 @@ export const AboutUs = () => {
                                                 </svg>
                                             </div>
                                             <div>
-                                                <p className="fs-5 m-0">Beneficios y ofertas exclusivas: Obtén acceso a promociones especiales y 
+                                                <p className="fs-5 m-0">Beneficios y ofertas exclusivas: Obtén acceso a promociones especiales y
                                                     recompensas diseñadas para maximizar tu experiencia educativa.</p>
                                             </div>
                                         </div>
@@ -99,8 +100,8 @@ export const AboutUs = () => {
                                             </div>
                                             <div>
                                                 <p className="fs-5 m-0">
-                                                Interfaz intuitiva: Disfruta de una plataforma fácil de usar,
-                                                diseñada para ofrecer una experiencia de aprendizaje fluida y sin complicaciones.
+                                                    Interfaz intuitiva: Disfruta de una plataforma fácil de usar,
+                                                    diseñada para ofrecer una experiencia de aprendizaje fluida y sin complicaciones.
                                                 </p>
                                             </div>
                                         </div>
@@ -116,7 +117,12 @@ export const AboutUs = () => {
                                                 </p>
                                             </div>
                                         </div>
-                                        <button type="button" className="btn bsb-btn-xl btn-outline-primary rounded-pill">Conectate ahora</button>
+                                        <Link to={"../login"}>
+                                            <button type="button" className="btn bsb-btn-xl btn-outline-primary rounded-pill">
+                                                Conectate ahora
+                                            </button>
+                                        </Link>
+
                                     </div>
                                 </div>
                             </div>
